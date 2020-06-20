@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f3b2a973-ff92-4b64-b580-cb52cff6a868" name="pairs-api" url="http://217.182.226.223">
+        <fileTransfer host="217.182.226.223" port="4815" privateKey="$USER_HOME$/Documents/access/hosti" rootFolder="/var/www/sites/pairs-api" accessType="SFTP" keyPair="true" username="bereg" passphrase="df9edf92df9bdf9fdf9bdf9cdf98df99df9edf98">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="4815" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

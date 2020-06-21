@@ -271,7 +271,7 @@ class HakatonController extends BaseController
 
 	private function addDaysInfo ($scheduleData, $idOrganisation, $resultKey, $idUser)
 	{
-		$person = Persons::findFirstByPhone($idUser);
+		$person = $this -> createNewUser($idUser, $idOrganisation, $resultKey);
 		for ($i = 0, $max = sizeof($scheduleData['schedule']); $i < $max; $i++)
 		{
 			$encodedKey = urlencode($resultKey);
